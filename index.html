@@ -311,7 +311,7 @@
       const data = await res.json();
       let reply = data.reply || "Sorry, I didn't understand. Please try again!";
 
-      if (userMsgCount === 8) {
+      if (userMsgCount === 6) {
         reply += `\n\n---\n✅ You have reached the minimum number of messages. Use the code **\`${SURVEY_CODE}\`** to continue the survey.`;
       }
 
